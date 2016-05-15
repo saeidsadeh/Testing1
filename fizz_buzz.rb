@@ -7,5 +7,5 @@ for i in 1..100 do
         puts "Fizz"
       else
         puts i
-      end
+      end*
     end
