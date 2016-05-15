@@ -1,0 +1,50 @@
+#h1{
+	color: green;
+	font-style: italic;
+}
+img {
+	height: 300px;
+	width: 400px;
+	box-shadow: rgba(0,0,0,0.2) 10px 10px;
+	border: solid red;
+	border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+#image:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+#ingredients{
+	background-color: #FFFFE0;
+	width: 600px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	padding:2px 2px 2px 2px;
+
+}
+li{
+	font-family: Arial;
+	font-size: 14;
+}
+#directions{
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-image: url(http://www.gimmesomeoven.com/wp-content/uploads/2014/02/Beef-Stroganoff-1.jpg);
+    background-position: cover;
+    background-repeat: repeat;
+    color: red;
+
+}
+ul li a:hover {
+ color:red;
+}
+#footnotes{
+	background-color: #EEE9E9;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	width: 600px;
+	padding:2px 2px 2px 2px;
+}
